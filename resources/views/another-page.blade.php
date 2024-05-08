@@ -21,7 +21,7 @@
                     <a class="nav-link active" aria-current="page">Pagina corrente</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="http://127.0.0.1:8000/another-page">Altra pagina</a>
+                    <a class="nav-link" href="http://127.0.0.1:8000/">Torna al menu!</a>
                   </li>
                 </ul>
               </div>
@@ -31,7 +31,7 @@
     <main>
         <div class="container">
             <h1>Hello World!</h1>
-            <h2>{{ $salutation }} {{ $name }} ma scritto in modo dinamico!</h2>
+            <h2>{{ $salutation }} {{ $name }} ma scritto in modo dinamico e in un'altra pagina!</h2>
         </div>
     </main>
 </body>

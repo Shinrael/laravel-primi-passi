@@ -21,3 +21,13 @@ Route::get('/', function () {
     return view('home', compact('salutation', 'name'));
 
 })->name('home');
+
+
+Route::get('/another-page', function () {
+
+    $salutation = 'Hello';
+    $name = 'World';
+
+    return view('another-page', compact('salutation', 'name'));
+
+})->name('another-page');
