@@ -21,7 +21,7 @@
                     <a class="nav-link active" aria-current="page">Pagina corrente</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="http://127.0.0.1:8000/another-page">Altra pagina</a>
+                    <a class="nav-link" href="{{ route('another-page') }}">Altra pagina</a>
                   </li>
                 </ul>
               </div>
